@@ -1,13 +1,13 @@
-# 📊 Assessment – ETRM Data Analysis with Pandas & Visualization  
+# ETRM Data Analysis with Pandas & Visualization  
 
-## 🎯 Objective  
+##  Objective  
 To practice **data ingestion, transformation, and visualization** using **Pandas** and Python plotting libraries (**Matplotlib / Seaborn / Plotly**).  
 
 This project demonstrates how to handle multi-format synthetic **ETRM trade data**, clean & transform it, perform exploratory data analysis (EDA), and generate insights through visualizations.  
 
 ---
 
-## 📂 Dataset Description  
+##  Dataset Description  
 You are provided with synthetic trade data in **six formats**:  
 - CSV (`etrm_trades.csv`)  
 - JSON (`etrm_trades.json`)  
@@ -31,16 +31,16 @@ Each file contains **100 trades** with the following fields:
 
 ## 🛠️ Steps Performed  
 
-### 1️⃣ Data Ingestion  
+### 1️ Data Ingestion  
 - Loaded all six file formats into Pandas DataFrames.  
 - Standardized **column names and data types** across files.  
 
-### 2️⃣ Data Cleaning & Transformation  
+### 2️ Data Cleaning & Transformation  
 - Converted `DeliveryStart` and `DeliveryEnd` columns to **datetime format**.  
 - Added **Notional Value** column = `Volume × Price`.  
 - Ensured **data consistency** across all sources.  
 
-### 3️⃣ Exploratory Data Analysis (EDA)  
+### 3️ Exploratory Data Analysis (EDA)  
 Performed key analyses, including:  
 - 📌 **Top 5 traders** by total trade volume  
 - 📌 **Average price** per commodity  
@@ -48,7 +48,7 @@ Performed key analyses, including:
 - 📌 **Breakdown of trade periodicity** (Daily, Weekly, Monthly, etc.)  
 - 📌 **Trend analysis** of average prices by delivery start date  
 
-### 4️⃣ Data Visualization  
+### 4️ Data Visualization  
 Generated at least **5 plots** for insights:  
 - 📊 **Bar Chart** → Volume by trader  
 - 🥧 **Pie Chart** → Trades by currency  
@@ -58,21 +58,21 @@ Generated at least **5 plots** for insights:
 
 ---
 
-## 📒 Deliverables  
+## Deliverables  
 
 - **Code**:  
   - `ETRM.ipynb` → Jupyter Notebook with data ingestion, transformation, and visualization.  
 
 
 - **Summary Report**:  
-  - `Insights.md` (Directory) → Key findings from the data analysis.  
+  - `Insights/` (Directory) → Key findings from the data analysis.  
 
 - **Datasets**:  
   - Provided in multiple formats inside the `datasets/` directory.  
 
 ---
 
-## 🚀 How to Run  
+##  How to Run  
 
 ### 1. Clone the Repository  
 ```bash
