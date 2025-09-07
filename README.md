@@ -78,8 +78,20 @@ Generated at least **5 plots** for insights:
 ```bash
 git clone https://github.com/animesharyan07/Assesment2
 cd Assesment2
-
+```
 
 ### 2. Install Dependencies
 ```bash
 pip install -r requirement.txt
+```
+
+### 3. Run the Notebook
+```bash
+jupyter notebook ETRM.ipynb
+```
+####
+Or run the Python script:
+```bash
+python ETRM.ipynb
+```
+
