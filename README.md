@@ -62,13 +62,13 @@ Generated at least **5 plots** for insights:
 
 - **Code**:  
   - `ETRM.ipynb` → Jupyter Notebook with data ingestion, transformation, and visualization.  
-  - `ETRM_Assessment.py` (optional) → Python script version for automation.  
+
 
 - **Summary Report**:  
-  - `Insights_Summary.md` (or Word/PDF) → Key findings from the data analysis.  
+  - `Insights.md` (Directory) → Key findings from the data analysis.  
 
 - **Datasets**:  
-  - Provided in multiple formats inside the `datasets/` folder.  
+  - Provided in multiple formats inside the `datasets/` directory.  
 
 ---
 
